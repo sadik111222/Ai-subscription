@@ -1,14 +1,15 @@
 
 import './App.css'
+import NavBar from './Components/Header/Navbar'
 
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
-     <div>
-
-     </div>
+      <div>
+        <NavBar></NavBar>
+      </div>
     </>
   )
 }
