@@ -6,18 +6,17 @@ import Navbar from './Components/Header/Navbar'
 
 
 
+
 function App() {
   // const [count, setCount] = useState(0)
 
   return (
     <>
       <div>
-
-        <Navbar></Navbar>
-
-        <Banner></Banner>
-
-        <Footer></Footer>
+          <Navbar></Navbar>
+          <Banner></Banner>
+          <Footer></Footer>
+        
       </div>
     </>
   )
