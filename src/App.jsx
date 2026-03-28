@@ -2,7 +2,9 @@
 import './App.css'
 import Footer from './Components/Footer/Footer'
 import Banner from './Components/Header/Banner'
-import NavBar from './Components/Header/Navbar'
+import Navbar from './Components/Header/Navbar'
+
+
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -11,7 +13,7 @@ function App() {
     <>
       <div>
 
-        <NavBar></NavBar>
+        <Navbar></Navbar>
 
         <Banner></Banner>
 
